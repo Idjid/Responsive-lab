@@ -66,6 +66,12 @@ div {
     width: 48%;
     background-color: aquamarine;
   }
+  #banner-image {
+    background-color: blueviolet;
+  }
+  body {
+    background-color: aqua;
+  }
 }
 @media screen and (min-width: 650px) {
   section#content-blocks {
@@ -74,5 +80,26 @@ div {
   div {
     width: 48%;
     background-color: gray;
+  }
+  #banner-image {
+    background-color: darkolivegreen;
+  }
+  body {
+    background-color: darkgoldenrod;
+  }
+}
+@media screen and (min-width: 900px) {
+  section#content-blocks {
+    flex-direction: row;
+  }
+  div {
+    width: 48%;
+    background-color: red;
+  }
+  #banner-image {
+    background-color: pink;
+  }
+  body {
+    background-color: purple;
   }
 }
